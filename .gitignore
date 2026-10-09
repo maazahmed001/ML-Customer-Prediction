@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Production Builds
+dist/
+build/
+
+# Environment & Local files
+.env
+.env.local
+*.log
