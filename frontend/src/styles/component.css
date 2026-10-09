@@ -1675,7 +1675,7 @@
   padding-bottom: 10px;
 }
 
-.tab-btn {
+.result-tabs .tab-btn {
   padding: 12px 24px;
   background: none;
   border: none;
@@ -1688,17 +1688,17 @@
   position: relative;
 }
 
-.tab-btn:hover {
+.result-tabs .tab-btn:hover {
   color: #3498db;
   background: #f8fafc;
 }
 
-.tab-btn.active {
+.result-tabs .tab-btn.active {
   color: #3498db;
   font-weight: 600;
 }
 
-.tab-btn.active::after {
+.result-tabs .tab-btn.active::after {
   content: '';
   position: absolute;
   bottom: -12px;
@@ -2431,7 +2431,7 @@
     flex-wrap: wrap;
   }
   
-  .tab-btn {
+  .result-tabs .tab-btn {
     flex: 1;
     min-width: 120px;
     text-align: center;
